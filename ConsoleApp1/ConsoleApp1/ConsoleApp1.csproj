@@ -43,6 +43,20 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Modelss\ApiProduct.cs" />
+    <Compile Include="Modelss\ApiProductCreator.cs" />
+    <Compile Include="Modelss\CloudServiceProduct.cs" />
+    <Compile Include="Modelss\CloudServiceProductCreator.cs" />
+    <Compile Include="Modelss\DigitalDocumentProduct.cs" />
+    <Compile Include="Modelss\DigitalDocumentProductCreator.cs" />
+    <Compile Include="Modelss\IDigitalProduct.cs" />
+    <Compile Include="Modelss\MobileAppProduct.cs" />
+    <Compile Include="Modelss\MobileAppProductCreator.cs" />
+    <Compile Include="Modelss\Order.cs" />
+    <Compile Include="Modelss\ProductCreator.cs" />
+    <Compile Include="Modelss\ProductType.cs" />
+    <Compile Include="Modelss\SoftwareProduct.cs" />
+    <Compile Include="Modelss\SoftwareProductCreator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
