@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -6,9 +6,11 @@ using System.Threading.Tasks;
 
 namespace ConsoleApp1.Factory
 {
-public interface IDigitalProduct
+public abstract class ProductCreator
 {
-    void Deliver();
+    public abstract IDigitalProduct CreateProduct();
 }
+
+
 
 }
